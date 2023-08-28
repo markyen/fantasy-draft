@@ -126,7 +126,7 @@ class Draft:
         return '\n'.join(result)
  
 def main():
-    draft = Draft.from_file('players.csv', 8, 12)
+    draft = Draft.from_file('players.csv', 1, 12)
     draft.draft_to_next_decision()
     draft.draft()
     print(draft)
